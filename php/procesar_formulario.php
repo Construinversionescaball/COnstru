@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $telefono = htmlspecialchars($_POST["Telefono"]);
     $mensaje = htmlspecialchars($_POST["Mensaje"]);
 
-    $destinatario = "tuemail@ejemplo.com"; // Reemplaza con tu email
+    $destinatario = "capsulylover@gmail.com"; // Reemplaza con tu email
     $asunto = "Nuevo mensaje de contacto";
     $contenido = "Nombre: $nombre\nCorreo: $email\nTeléfono: $telefono\nMensaje:\n$mensaje";
 
